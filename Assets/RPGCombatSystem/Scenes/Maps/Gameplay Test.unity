@@ -2058,10 +2058,35 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1928932260992637013, guid: b8833a8b5e00b6c4a841324882db4f44,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 4e4e642c49804064d96815de3fe6875d, type: 2}
+    - target: {fileID: 4241319591299159578, guid: b8833a8b5e00b6c4a841324882db4f44,
+        type: 3}
+      propertyPath: isAttacking
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4446435558752495980, guid: b8833a8b5e00b6c4a841324882db4f44,
         type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446435558752495980, guid: b8833a8b5e00b6c4a841324882db4f44,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.929086
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446435558752495980, guid: b8833a8b5e00b6c4a841324882db4f44,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.929086
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446435558752495980, guid: b8833a8b5e00b6c4a841324882db4f44,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.929086
       objectReference: {fileID: 0}
     - target: {fileID: 4446435558752495980, guid: b8833a8b5e00b6c4a841324882db4f44,
         type: 3}
@@ -2071,12 +2096,12 @@ PrefabInstance:
     - target: {fileID: 4446435558752495980, guid: b8833a8b5e00b6c4a841324882db4f44,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.023415089
+      value: 2.1889
       objectReference: {fileID: 0}
     - target: {fileID: 4446435558752495980, guid: b8833a8b5e00b6c4a841324882db4f44,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 52.226852
+      value: 51.851
       objectReference: {fileID: 0}
     - target: {fileID: 4446435558752495980, guid: b8833a8b5e00b6c4a841324882db4f44,
         type: 3}
@@ -2563,6 +2588,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4446435558752495983, guid: a6f8656c45caf0d41807c42f0602107b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4446435558752495990, guid: a6f8656c45caf0d41807c42f0602107b,
         type: 3}
